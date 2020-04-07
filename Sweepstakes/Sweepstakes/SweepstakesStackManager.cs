@@ -18,5 +18,15 @@ namespace Sweepstakes
             stack.Push(numToPush);
             
         }
+
+        public void InsertSweepstakes(Sweepstakes sweepstakes)
+        {
+
+        }
+
+        public Sweepstakes GetSweepstakes()
+        {
+            return null;
+        }
     }
 }

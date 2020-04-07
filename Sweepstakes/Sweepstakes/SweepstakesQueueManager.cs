@@ -15,5 +15,15 @@ namespace Sweepstakes
             queue.Enqueue(numToEnqueue);
             
         }
+
+        void InsertSweepstakes(Sweepstakes sweepstakes)
+        {
+
+        }
+
+        Sweepstakes GetSweepstakes()
+        {
+            return null;
+        }
     }
 }
