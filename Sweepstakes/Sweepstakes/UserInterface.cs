@@ -11,13 +11,14 @@ namespace Sweepstakes
 
         public void AddContestant()
         {
-            Contestant NewConstestant = new Contestant();
+            Contestant NewContestant = new Contestant();
             Console.WriteLine("Please enter the contestants first name:");
-            NewConstestant.fName = Console.ReadLine();
+            NewContestant.fName = Console.ReadLine();
             Console.WriteLine("Please enter the contestants last name:");
-            NewConstestant.lName = Console.ReadLine();
+            NewContestant.lName = Console.ReadLine();
             Console.WriteLine("Please enter the contestants E-Mail:");
-            NewConstestant.eMail = Console.ReadLine();
+            NewContestant.eMail = Console.ReadLine();
+            NewContestant.registrationNum = 
 
         }
     }
