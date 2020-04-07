@@ -18,7 +18,7 @@ namespace Sweepstakes
             NewContestant.lName = Console.ReadLine();
             Console.WriteLine("Please enter the contestants E-Mail:");
             NewContestant.eMail = Console.ReadLine();
-            NewContestant.registrationNum = 
+            NewContestant.registrationNum = registrationNum.count();
 
         }
     }

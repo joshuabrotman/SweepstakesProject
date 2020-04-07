@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Sweepstakes
 {
-    class SweepstakesQueueManager
+    class SweepstakesQueueManager : ISweepstakesManager
     {
+        Queue<int> queue = new Queue<int>();
+        public void EnqueueOnQueue(int numToEnqueue)
+        {
+            
+            queue.Enqueue(numToEnqueue);
+            
+        }
     }
 }

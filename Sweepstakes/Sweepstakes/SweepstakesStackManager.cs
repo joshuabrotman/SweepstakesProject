@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace Sweepstakes
 {
-    class SweepstakesStackManager
+    class SweepstakesStackManager : ISweepstakesManager
     {
+
+        Stack<int> stack = new Stack<int>();
+
+        public void PushOnToStack(int numToPush)
+        {
+            
+
+            stack.Push(numToPush);
+            
+        }
     }
 }
