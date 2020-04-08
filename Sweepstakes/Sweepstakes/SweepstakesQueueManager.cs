@@ -16,12 +16,12 @@ namespace Sweepstakes
             
         }
 
-        void InsertSweepstakes(Sweepstakes sweepstakes)
+        public void InsertSweepstakes(Sweepstakes sweepstakes)
         {
 
         }
 
-        Sweepstakes GetSweepstakes()
+        public Sweepstakes GetSweepstakes()
         {
             return null;
         }
